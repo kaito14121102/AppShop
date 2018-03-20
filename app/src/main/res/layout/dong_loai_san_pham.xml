@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:weightSum="10"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="5dp"
+            android:id="@+id/img_loaisp"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/txt_loaisp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:text="Loai sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

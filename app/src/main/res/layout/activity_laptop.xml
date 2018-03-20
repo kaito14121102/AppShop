@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.anime.rezero.appshop.activity.DienThoaiActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_laptop"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#fed700"
+        app:title="Laptop">
+
+        <!--<EditText-->
+            <!--android:layout_width="220dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/edit_text"-->
+            <!--android:drawableLeft="@drawable/search"-->
+            <!--android:hint="Bạn tìm sản phẩm gì.." />-->
+    </android.support.v7.widget.Toolbar>
+
+    <in.srain.cube.views.GridViewWithHeaderAndFooter
+        android:id="@+id/grid_view_laptop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:numColumns="2">
+
+    </in.srain.cube.views.GridViewWithHeaderAndFooter>
+
+</LinearLayout>

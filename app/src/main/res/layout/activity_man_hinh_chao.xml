@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anime.rezero.appshop.activity.ManHinhChao">
+    <ImageView
+        android:src="@drawable/manhinhchao"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+
+        android:background="#80000000"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/world"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:textSize="17sp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="Thế giới mua sắm \ntrong tầm tay bạn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/transport"
+            android:layout_width="60dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:textSize="17sp"
+
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="Giao hàng tận nơi.\nThanh toán dễ dàng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/doitra"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:textSize="17sp"
+
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="Đổi trả trong vòng 30 ngày\nnếu lỗi do nhà sản xuất"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:src="@drawable/logotgdd"
+        android:layout_gravity="bottom|center"
+        android:layout_width="230dp"
+        android:layout_height="120dp" />
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.anime.rezero.appshop.activity.DienThoaiActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_dienthoai"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#fed700"
+        app:title="Điện thoại">
+
+
+    </android.support.v7.widget.Toolbar>
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></ListView>
+    <in.srain.cube.views.GridViewWithHeaderAndFooter
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:numColumns="2">
+
+    </in.srain.cube.views.GridViewWithHeaderAndFooter>
+
+</LinearLayout>
